@@ -1,0 +1,140 @@
+{
+  "blending": [
+    {
+      "cond": "all",
+      "variant": "V1",
+      "n": 205,
+      "photometric": 29.27974845077444,
+      "seam_step": 6.279417372912896,
+      "sharpness": 1.0546936116567471,
+      "ms_total_median": 49.109495999800856
+    },
+    {
+      "cond": "all",
+      "variant": "V2",
+      "n": 205,
+      "photometric": 29.27974845077444,
+      "seam_step": 1.0544099374515254,
+      "sharpness": 0.8415554712458355,
+      "ms_total_median": 66.5275000001202
+    },
+    {
+      "cond": "all",
+      "variant": "V3",
+      "n": 205,
+      "photometric": 29.27974845077444,
+      "seam_step": 1.3691472169829577,
+      "sharpness": 1.01483661430638,
+      "ms_total_median": 150.26092199968843
+    },
+    {
+      "cond": "all",
+      "variant": "V4",
+      "n": 205,
+      "photometric": 22.58125897444607,
+      "seam_step": 1.368487542431529,
+      "sharpness": 1.012780399148057,
+      "ms_total_median": 174.4546680001804
+    },
+    {
+      "cond": "day",
+      "variant": "V1",
+      "n": 144,
+      "photometric": 34.08965505236757,
+      "seam_step": 7.810285063253509,
+      "sharpness": 1.0768207953208022,
+      "ms_total_median": 50.07740499922875
+    },
+    {
+      "cond": "day",
+      "variant": "V2",
+      "n": 144,
+      "photometric": 34.08965505236757,
+      "seam_step": 1.1335413915415604,
+      "sharpness": 0.8515458976229032,
+      "ms_total_median": 68.89864199956719
+    },
+    {
+      "cond": "day",
+      "variant": "V3",
+      "n": 144,
+      "photometric": 34.08965505236757,
+      "seam_step": 1.4582075224154525,
+      "sharpness": 1.0208817712134786,
+      "ms_total_median": 153.7710145003075
+    },
+    {
+      "cond": "day",
+      "variant": "V4",
+      "n": 144,
+      "photometric": 24.92715099769937,
+      "seam_step": 1.4561324359642134,
+      "sharpness": 1.0179165626565616,
+      "ms_total_median": 180.15362650021416
+    },
+    {
+      "cond": "night",
+      "variant": "V1",
+      "n": 61,
+      "photometric": 17.92521483389888,
+      "seam_step": 2.665565776043251,
+      "sharpness": 1.0024589485809452,
+      "ms_total_median": 44.43539300064003
+    },
+    {
+      "cond": "night",
+      "variant": "V2",
+      "n": 61,
+      "photometric": 17.92521483389888,
+      "seam_step": 0.8676078163209509,
+      "sharpness": 0.817971513896692,
+      "ms_total_median": 63.9046899996174
+    },
+    {
+      "cond": "night",
+      "variant": "V3",
+      "n": 61,
+      "photometric": 17.92521483389888,
+      "seam_step": 1.1589064959619866,
+      "sharpness": 1.0005660799683118,
+      "ms_total_median": 141.1796210004468
+    },
+    {
+      "cond": "night",
+      "variant": "V4",
+      "n": 61,
+      "photometric": 17.043415509716958,
+      "seam_step": 1.1615881216330606,
+      "sharpness": 1.0006556852919157,
+      "ms_total_median": 167.82679000061762
+    }
+  ],
+  "alignment": [
+    {
+      "time_comp": 0,
+      "n_pairs": 669,
+      "shift_m_median": 0.15659842992370396,
+      "shift_m_mean": 0.2633415102190437,
+      "shift_px_median": 3.131968598474079,
+      "fast_shift_m_median": 0.1960397322890307
+    },
+    {
+      "time_comp": 1,
+      "n_pairs": 691,
+      "shift_m_median": 0.16151486992074737,
+      "shift_m_mean": 0.24816621093268576,
+      "shift_px_median": 3.230297398414947,
+      "fast_shift_m_median": 0.18768249401132525
+    }
+  ],
+  "machine": {
+    "cpu_count": 12,
+    "loadavg_1_5_15": [
+      26.16,
+      19.25,
+      13.49
+    ]
+  },
+  "stride": 2,
+  "version": "v1.0-mini"
+}

@@ -1,0 +1,112 @@
+{
+  "groups": [
+    {
+      "group": "all",
+      "n": 7733,
+      "static_median": 2.726121764209372,
+      "static_p90": 14.26699073978943,
+      "timecomp_median": 2.7134367663172667,
+      "timecomp_p90": 14.173504955809994,
+      "oracle_z_median": 0.027535797327061025,
+      "oracle_z_p90": 0.08349837533631821
+    },
+    {
+      "group": "dist <10m",
+      "n": 1007,
+      "static_median": 0.5064997791088317,
+      "static_p90": 1.9019417608481055,
+      "timecomp_median": 0.5012997849438525,
+      "timecomp_p90": 1.8897451983080689,
+      "oracle_z_median": 0.026699701882150623,
+      "oracle_z_p90": 0.06500602589980611
+    },
+    {
+      "group": "dist 10–20m",
+      "n": 3089,
+      "static_median": 1.9208944350409498,
+      "static_p90": 6.8651209605100005,
+      "timecomp_median": 1.9044117843132913,
+      "timecomp_p90": 6.7869127363685084,
+      "oracle_z_median": 0.02729500167740372,
+      "oracle_z_p90": 0.08694877069731288
+    },
+    {
+      "group": "dist ≥20m",
+      "n": 3637,
+      "static_median": 5.479265217912621,
+      "static_p90": 25.19153687857042,
+      "timecomp_median": 5.472078060989467,
+      "timecomp_p90": 25.148644417704283,
+      "oracle_z_median": 0.027993066777489934,
+      "oracle_z_p90": 0.08629115107550804
+    },
+    {
+      "group": "ego stopped (<1 m/s)",
+      "n": 1597,
+      "static_median": 2.0586015340243593,
+      "static_p90": 10.633319463367785,
+      "timecomp_median": 2.0657236415400715,
+      "timecomp_p90": 10.64287067042312,
+      "oracle_z_median": 0.0362547924100914,
+      "oracle_z_p90": 0.07992235544015429
+    },
+    {
+      "group": "ego fast (≥8 m/s)",
+      "n": 1896,
+      "static_median": 2.381622098835968,
+      "static_p90": 9.219822846303728,
+      "timecomp_median": 2.3617843531907146,
+      "timecomp_p90": 9.233100477195721,
+      "oracle_z_median": 0.026815444623490094,
+      "oracle_z_p90": 0.11480606576879335
+    },
+    {
+      "group": "flat (z_g within ±0.15 m)",
+      "n": 2699,
+      "static_median": 0.571953379921118,
+      "static_p90": 1.6534262618187248,
+      "timecomp_median": 0.5563288825727444,
+      "timecomp_p90": 1.6201630039394905,
+      "oracle_z_median": 0.02402656315449534,
+      "oracle_z_p90": 0.0812207213321902
+    },
+    {
+      "group": "non-flat (z_g beyond ±0.15 m)",
+      "n": 5034,
+      "static_median": 4.86815656971881,
+      "static_p90": 22.099679008605094,
+      "timecomp_median": 4.84694068553908,
+      "timecomp_p90": 22.14372715610626,
+      "oracle_z_median": 0.02942411876194187,
+      "oracle_z_p90": 0.08456223918734415
+    },
+    {
+      "group": "flat & fast",
+      "n": 754,
+      "static_median": 0.667377157540064,
+      "static_p90": 1.746174144024502,
+      "timecomp_median": 0.6173322152288628,
+      "timecomp_p90": 1.671742550369786,
+      "oracle_z_median": 0.02570804337001025,
+      "oracle_z_p90": 0.13705845470988942
+    },
+    {
+      "group": "flat & <10m",
+      "n": 679,
+      "static_median": 0.29231149697667286,
+      "static_p90": 0.6645761745594434,
+      "timecomp_median": 0.2611806734423296,
+      "timecomp_p90": 0.661167581988675,
+      "oracle_z_median": 0.02330880079343221,
+      "oracle_z_p90": 0.06422816089167828
+    }
+  ],
+  "n_lidar_ground": 2353,
+  "lidar_vs_box_bottom_median_abs_m_within15m": 0.08762656328831671,
+  "z_ground_percentiles_5_50_95": [
+    -0.6531190146668188,
+    0.05224364037484097,
+    0.8607816502008043
+  ],
+  "version": "v1.0-mini"
+}

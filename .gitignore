@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+logs/
+results/**/*.csv
+!results/**/summary*.csv
+results/demo/*.mp4
+!results/demo/scene-0553.mp4

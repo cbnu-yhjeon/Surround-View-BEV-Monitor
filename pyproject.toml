@@ -1,0 +1,13 @@
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = ["E741"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["src", "_common"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
